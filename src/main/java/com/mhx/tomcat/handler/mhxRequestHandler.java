@@ -45,10 +45,6 @@ public class mhxRequestHandler implements  Runnable{
 //            System.out.println(mhxRequest);
 
 
-
-
-
-
             //返回数据给浏览器→封装成Http响应
 
             MhxResponse mhxResponse = new MhxResponse(socket.getOutputStream());
